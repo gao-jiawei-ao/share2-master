@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mylhyl:acp:1.2.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9166e732274e2a45e535c0a23175c60b/transformed/jetified-acp-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9166e732274e2a45e535c0a23175c60b/transformed/jetified-acp-1.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9166e732274e2a45e535c0a23175c60b/transformed/jetified-acp-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8ae238f9290db4291bef102c62123a35/transformed/jetified-acp-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8ae238f9290db4291bef102c62123a35/transformed/jetified-acp-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8ae238f9290db4291bef102c62123a35/transformed/jetified-acp-1.2.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mylhyl/acp/1.2.0/c00efb072cf8ceb70a75865d32401caa84b4aa0a/acp-1.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mylhyl/acp/1.2.0/3140708bdbaeddb21d544a698ef25ac660906220/acp-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

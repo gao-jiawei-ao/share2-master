@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_light"
+            android:gravity="center"
+            android:hint="用户名" />
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/username"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_light"
+            android:gravity="center"
+            android:hint="密码"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/pwd_switch1"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignEnd="@id/password1"
+            android:layout_alignBottom="@id/password1"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_baseline_visibility_off_24" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/password1"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_light"
+            android:gravity="center"
+            android:hint="确认密码"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/pwd_switch2"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignEnd="@id/password2"
+            android:layout_alignBottom="@id/password2"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/ic_baseline_visibility_off_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3 "
+        android:paddingHorizontal="80dp">
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_blue"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
